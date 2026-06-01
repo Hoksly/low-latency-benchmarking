@@ -1,0 +1,26 @@
+# thesis documents
+src/thesis/
+
+# presentation
+src/presentation.pptx
+src/presentation_script.md
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# editor
+.idea/
+*.swp
+
+# claude
+.claude/
+memory/
+
+# ssh keys — never commit private keys
+*.pem
+*.key
+
+# aws / experiment artefacts
+results-*/
